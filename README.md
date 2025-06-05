@@ -158,19 +158,19 @@ The Dockerfile defines the steps to build the Docker image for the application.
 `CMD ["nginx", "-g", "daemon off;"]`
 
 ## Build and Run the Docker Container
-1. Build the Docker Image: Open a terminal in the root directory of your project and run:
+1. Build the Docker Image: Open a terminal in the root directory of project and run:
 
 	`docker build -t news-aggregator .`
 
-2. Run the Docker Container: To start a container from your image, run:
+2. Run the Docker Container: To start a container from image, run:
 	`docker run -p 80:80 news-aggregator`
 
 
 ### Project Setup and Dockerization
 1. Clone the Repository:
 
-	git clone https://github.com/yourusername/news-aggregator.git
-	cd news-aggregator
+	git git@github.com:mridulmehra/Live_news_aggregator.git
+	cd Live_news_aggregator
 
 2. Install Docker:
 
