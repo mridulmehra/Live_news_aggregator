@@ -1,4 +1,4 @@
-# News Aggregator Application - 
+# News Aggregator Application
 
 ### Overview
 
