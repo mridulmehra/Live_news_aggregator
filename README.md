@@ -169,7 +169,7 @@ The Dockerfile defines the steps to build the Docker image for the application.
 ### Project Setup and Dockerization
 1. Clone the Repository:
 
-	git git@github.com:mridulmehra/Live_news_aggregator.git
+	git https://github.com/mridulmehra/Live_news_aggregator.git
 	cd Live_news_aggregator
 
 2. Install Docker:
