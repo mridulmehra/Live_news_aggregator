@@ -157,17 +157,6 @@ The Dockerfile defines the steps to build the Docker image for the application.
 ### Start Nginx server
 `CMD ["nginx", "-g", "daemon off;"]`
 
-## Docker Compose (Optional)
-If using Docker Compose, the docker-compose.yml file simplifies running the application.
-```
-version: '3.8'
-
-services:
-  web:
-    build: .
-    ports:
-      - "80:80"
-```
 ## Build and Run the Docker Container
 1. Build the Docker Image: Open a terminal in the root directory of your project and run:
 
@@ -176,8 +165,6 @@ services:
 2. Run the Docker Container: To start a container from your image, run:
 	`docker run -p 80:80 news-aggregator`
 
-	If using Docker Compose, you can build and run the container with:
-	`docker-compose up --build`
 
 ### Project Setup and Dockerization
 1. Clone the Repository:
